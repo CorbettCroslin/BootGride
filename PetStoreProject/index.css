@@ -1,0 +1,122 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* Header */
+
+body{
+background-color: rgb(218, 218, 218);
+font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.icon-xl{
+    font-size: 50px;
+    }
+
+.icon-lg{
+font-size: 35px;
+}
+
+.icon-md{
+ font-size: 25px;
+}
+
+/* Top Nav Bar */
+
+nav{
+    padding: 0px !important;
+}
+
+
+.top-nav-left{
+    justify-content: flex-end;
+    text-align: end;
+}
+
+
+.nav-top{
+background-color: #1a3b96;
+color: #fff !important;
+padding: 0px !important;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+/* Main Nav Bar */
+.nav-main{
+background-color: rgb(190, 208, 224);
+color: #000;
+font-size: 25px ;
+font-family:'Zen Kaku Gothic New', sans-serif;
+justify-content: left;
+;
+}
+
+.nav-logo-text{
+    color: #1a3b96;
+    text-decoration: none;
+    font-size: 50px ;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bolder;
+}
+
+#main-logo{ 
+    width:150px; 
+    height:150px;
+}
+ 
+
+/* Promotion Bar */
+p.navbar-text{
+	display:flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+
+p.promo-front-pg{
+padding: 0px !important;
+margin: 0px  0px 2px 0px !important;
+text-align: center;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+color:rgb(255, 255, 255) !important;
+
+}
+
+
+.nav-bottom{
+    background-color: rgb(39, 85, 17);
+    height: 35px;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+/* Carousel */
+
+
+
+/* What's New */
+
+
+
+/* Featured Product */
+
+
+
+/* Locations & Times */
+
+
+
+/* Footer */
+
+.footer-style{
+    background-color:  rgb(39, 85, 17);
+}
+
+.bottom-menu{
+    font-weight: bolder;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: #fff !important;
+}
+
+
+/* Media */
