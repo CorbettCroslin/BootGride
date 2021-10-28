@@ -17,90 +17,111 @@
 
 <body>
 
-  <!-- Nav Bar Top-->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid nav-top">
-        <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="nav-top-contain container-fluid w-100">
+      <div class="row">
 
-          <a href="#" class="navbar-brand">
-            <i class="bi bi-envelope icon-md"></i>
-            <span class="d-none d-md-inline-block navbar-text text-right text-white">info@FluffyPaws.net</span></a>
-          <span class="mx-md-2 d-inline-block"></span>
-          <a href="#" class="navbar-brand">
-            <i class="bi bi-phone icon-md"></i>
-            <span class="d-none d-md-inline-block navbar-text text-right text-white">1+ (555) 555 9101</span></a>
+        <!-- Nav Bar Top-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class=" container-fluid nav-top">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="col-10">
+                <a href="#" class="navbar-brand">
+                  <i class="bi bi-envelope icon-md"></i>
+                  <span
+                    class="d-none d-md-inline-block navbar-text text-right text-white">info@FluffyPaws.net</span></a>
+                <span class="mx-md-2 d-inline-block"></span>
+                <a href="#" class="navbar-brand">
+                  <i class="bi bi-phone icon-md"></i>
+                  <span class="d-none d-md-inline-block navbar-text text-right text-white">1+ (555) 555 9101</span></a>
+              </div>
 
 
-          <div class="float-right justify-content-end">
-
-            <a href="#" class="navbar-brand">
-              <i class="bi bi-box-arrow-in-right icon-md"></i>
-              <span class="" top-nav-left text-left text-white">Sign In</span></a>
-
-            <span class="top-nav-left"></span>
-            <a href="#" class="navbar-brand">
-              <i class="bi bi-cart4 icon-lg"></i>
-              <span class="" top-nav-left text-left"></span></a>
+              <div class="col-1 justify-content-end">
+                <a href="#" class="navbar-brand">
+                  <i class="bi bi-box-arrow-in-right icon-md"></i>
+                  <span class="top-nav-left text-left text-white">Sign In</span></a>
+              </div>
+              <div class="col-1 container-fluid mx-auto mb-2">
+                <span class="top-nav-left"></span>
+                <a href="#" class="navbar-brand">
+                  <i class="bi bi-cart4 icon-lg"></i>
+                  <span class=" top-nav-left text-left"></span></a>
+              </div>
+            </div>
           </div>
-        </div>
+        </nav>
       </div>
+    </div>
+
+
+    </div>
     </nav>
+    <div class="container-fluid w-100 nav-main-contain">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+          <div class="container-fluid nav-main">
+            <!-- logo -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
-      <div class="container-fluid nav-main">
+            <div class="col-6">
+              <div class="site-logo">
+                <a href="index.html" class="text-black"><img src="./images/Logo/FPlogoWOtext.png" alt="Logo"
+                    id="main-logo"></a>
+                <a href="index.html" class="navbar-brand nav-logo-text"><span class="text-primary">Fluffy
+                    Paw's</a>
+              </div>
+            </div>
 
-        <!-- logo -->
-        <div class="site-logo">
-          <a href="index.html" class="text-black"><img src="./images/Logo/FPlogoWOtext.png" alt="Logo"
-              id="main-logo"></a>
-          <a href="index.html" class="navbar-brand nav-logo-text"><span class="text-primary">Fluffy
-              Paw's</a>
-        </div>
-        <!-- Page Links -->
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav  justify-content-end">
-            <li class="navbar-nav me-auto mb-2 mb-lg-0">
-              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./ProductPage/ProductPage.html" id="navbarDropdownMenuLink"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Products
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./ProductPage/ProductPage.html#food&treats">Food & Treats</a></li>
-                <li><a class="dropdown-item" href="./ProductPage/ProductPage.html#toys">Toys</a></li>
-                <li><a class="dropdown-item" href="./ProductPage/ProductPage.html#trainingtoys">Training Toys</a></li>
+            <!-- Menu Links -->
+
+            <div class="col-5">
+              <ul class="navbar-nav  justify-content-end">
+                <li class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="./ProductPage.html#food&teats">Food & Treats</a>
+                    </li>
+                    <li><a class="dropdown-item" href="./ProductPage.html">Toys</a></li>
+                    <li><a class="dropdown-item" href="./ProductPage.html">Training Toys</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle color-black" href="./ServicesPage/ServicePage.html"
+                    id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Services</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="./ServicePage.html">Grooming</a></li>
+                    <li><a class="dropdown-item" href="./ServicePage.html">Nail Trimming</a>
+                    </li>
+                    <li><a class="dropdown-item" href="./ServicesPage.html">Training</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./ContactPage.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./AboutPage.html">About</a>
+                </li>
+
+                </li>
               </ul>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle color-black" href="./ServicesPage/ServicePage.html"
-                id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./ServicesPage/ServicePage.html#grooming">Grooming</a></li>
-                <li><a class="dropdown-item" href="ServicesPage/ServicePage.html#nailtrimming">Nail Trimming</a></li>
-                <li><a class="dropdown-item" href="./ServicesPage/ServicePage.html#training">Training</a></li>
-              </ul>
-
-            <li class="nav-item">
-              <a class="nav-link" href="./ContactPage/ContactPage.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="AboutPage/AboutPage.html">About</a>
-            </li>
-
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+            </div>
+          </div>
+        </nav>
   </header>
+  </div>
+  </div>
+
   <!-- /* Promotion Bar */ -->
 
   <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid nav-bottom text-center">
+    <div class="container-fluid nav-bottom text-center nav-bottom-contain">
       <span class="navbar-text w-100">
         <p class=" navbar-text promo-front-pg">Free Shipping and a bag of treats for new
           customers! Use promo code NEWCUST at checkout!</p>
@@ -108,15 +129,15 @@
       </span>
     </div>
   </nav>
-
+  </header>
 
 
 
   <!-- /* Carousel */ -->
-<br>
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 
   <!-- /* What's New */ -->
@@ -135,89 +156,135 @@
 
   <footer class="footer-style page-footer font-small special-color-dark pt-4">
 
-    <!-- Footer Elements -->
-    <div class="container ">
+
+    <div class="container-fluid w-100">
       <div class="row">
 
         <!-- Social buttons -->
-        <div class="col-4">
+
+        <div class="col-4 footer-menu-social pt-5 px-0">
           <ul class="list-unstyled list-inline text-center">
-            <div>
+            <div class="">
               <li class="list-inline-item">
-                <a class="btn-floating btn-fb mx-1">
-                  <i class="bi bi-facebook icon-xl"></i>
+                <a href="#" class="btn-floating btn-fb mx-1 footer-menu-social-logo">
+                  <i class="bi bi-facebook link-hover"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn-floating btn-tw mx-1">
-                  <i class="bi bi-twitter icon-xl"> </i>
+                <a href="#" class="btn-floating btn-tw mx-1 footer-menu-social-logo">
+                  <i class="bi bi-twitter link-hover"> </i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn-floating btn-gplus mx-1">
-                  <i class="bi bi-instagram icon-xl"></i>
+                <a href="#" class="btn-floating btn-gplus mx-1 footer-menu-social-logo">
+                  <i class="bi bi-instagram link-hover"></i>
                 </a>
               </li>
             </div>
             <div>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn-floating btn-tw mx-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
-                  <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
-                </svg>
-                <i class="bi bi-pinterest icon-xl"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn-floating btn-gplus mx-1">
-                <i class="bi bi-youtube icon-xl"></i>
-              </a>
-            </li>
+              </li>
+              <li class="list-inline-item text-white">
+                <a href="#" class="btn-floating btn-tw mx-1 text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-pinterest link-hover" viewBox="0 0 16 16">
+                    <path
+                      d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
+                  </svg>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                 <a href="#" class="btn-floating btn-gplus mx-1 text-white">
+                  <i class="bi bi-youtube link-hover footer-menu-social-logo"></i>
+                </a>
+              </li>
             </div>
           </ul>
-        </div>
-
-        <div class="col-4">
-          <div class="site-logo">
-            <a href="index.html" class="text-black"><img src="./images/Logo/FPlogo.png" alt="Logo" id="main-logo"></a>
+          <div class="container-fluid px-0 text-center">
+            <a href="#" class="navbar-brand">
+              <i class="bi bi-envelope icon-md"></i>
+              <span
+                class="footer-menu-contact d-none d-md-inline-block navbar-text text-right footer-contact">info@FluffyPaws.net</span></a>
+            <span class="mx-md-2 d-inline-block"></span>
+            <a href="#" class="navbar-brand">
+              <i class="bi bi-phone icon-md"></i>
+              <span class="footer-menu-contact d-none d-md-inline-block navbar-text text-right footer-contact">1+ (555) 555
+                9101</span></a>
           </div>
         </div>
 
-        <div class="col-2">
-          <div class="bottom-menu">
-              <ul class="navbar-nav  justify-content-end">
-                <li class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./ProductPage/ProductPage.html">Products</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./ServicesPage/ServicePage.html">Services</a>
-                </li>  
-              </ul>
+        <!-- Footer Logo -->
+
+        <div class="col-3 footer-logo-row">
+          <div class="bottom-site-logo">
+            <a href="index.html" class="p-5"><img src="./images/Logo/FPlogo.png" alt="Logo" id="main-bottom-logo"></a>
           </div>
         </div>
-        <div class="col-2">
-          <div class="bottom-menu">
-              <ul class="navbar-nav  justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link" href="./ContactPage/ContactPage.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="AboutPage/AboutPage.html">About</a>
-                </li>
-                </li>
-              </ul>
-            </div>
+        <div class="col-2 footer-logo-row">
+          <div class="blank colum">
+            <a href="" class="text-black"><img src="#" alt="" id=""></a>
           </div>
         </div>
-  <!-- Copyright -->
+
+        <!-- Footer Menu -->
+
+        <div class="col-1 footer-menu-row pt-4">
+          <div class="bottom-menu">
+            <ul class="navbar-nav  justify-content-end">
+              <li class="navbar-nav me-auto mb-2 mb-lg-0">
+                <a class="nav-link link-hover" aria-current="page" style="color:white" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-hover" style="color:white" href="./ProductPage.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-hover" style="color:white" href="./ServicePage.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-hover" style="color:white" href="./ContactPage.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-hover" style="color:white" href="./AboutPage.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-2 pt-1">
+          <div class="bottom-menu">
+            <ul class="navbar-nav  justify-content-end">
+              <li class="navbar-nav me-auto mb-2 mb-lg-0">
+                <a class="nav-link text-white" href="./ProductPage.html"><i class="link-hover bi bi-caret-right">Food &
+                    Treats</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./ProductPage.html"><i
+                    class="link-hover bi bi-caret-right">Toys</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./ServicePage.html"><i
+                    class="link-hover bi bi-caret-right">Accessories</i></a>
+              </li>
+
+              <li class="navbar-nav me-auto mb-2 mb-lg-0">
+                <a class="nav-link text-white" aria-current="page" href="./ProductPage.html"><i
+                    class="link-hover bi bi-caret-right">Grooming</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./ProductPage.html"><i
+                    class="link-hover bi bi-caret-right">Nail Trimming</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./ProductPage.html"><i
+                    class="link-hover bi bi-caret-right">Training</i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
         <div class="col-12">
           <div class="copyright">
-            <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+            <div class="footer-copyright text-center py-3 ">© 2021 Copyright:
+              <a href="https://mdbootstrap.com/">FluffyPaws.net</a>
             </div>
           </div>
         </div>
@@ -228,9 +295,6 @@
     </div>
   </footer>
 
-  
-
-  <!-- /* Media */ -->
 
 
 

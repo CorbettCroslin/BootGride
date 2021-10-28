@@ -22,7 +22,33 @@ font-size: 35px;
  font-size: 25px;
 }
 
+i{
+    font-style: normal;
+}
+
+.link-hover:hover{
+    color: rgb(137, 172, 202) !important;
+}
+
 /* Top Nav Bar */
+
+.nav-top-contain{   
+    width: 100%;
+    position: relative;
+    margin:auto;
+    
+
+}
+
+
+
+.nav-main-contain{
+
+}
+
+.nav-bottom-contain{
+
+}
 
 nav{
     padding: 0px !important;
@@ -108,6 +134,32 @@ color:rgb(255, 255, 255) !important;
 
 /* Footer */
 
+.footer-contact{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.footer-logo-row{
+    
+    
+}
+.footer-menu-row{
+    
+}
+.footer-menu-social-logo{
+    color:#fff !important;
+    font-size: 50px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+}
+
+.footer-menu-contact{
+    color:#fff !important;
+    font-size: 16px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+
+}
 .footer-style{
     background-color:  rgb(39, 85, 17);
 }
@@ -117,6 +169,106 @@ color:rgb(255, 255, 255) !important;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     color: #fff !important;
 }
+#main-bottom-logo{
+width: 250px;
+height: 250px;
+
+}
 
 
 /* Media */
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    #main-bottom-logo{
+        width: 150px;
+        height: 150px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 10px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    #main-bottom-logo{
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 10px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 35px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+
+
+}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+    #main-bottom-logo{
+        width: 200px;
+        height: 200px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 15px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 40px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+    #main-bottom-logo{
+        width: 250px;
+        height: 250px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 18px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 50px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+
+
+
+}
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+    #main-bottom-logo{
+        width: 200px;
+        height: 200px;
+    }
+    .footer-menu-contact{
+    color:#fff !important;
+    font-size: 18px;
+    font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 50px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+
+} 
