@@ -36,18 +36,11 @@ i{
     width: 100%;
     position: relative;
     margin:auto;
-    
 
 }
-
-
-
-.nav-main-contain{
-
-}
-
-.nav-bottom-contain{
-
+.nav-top-right{
+    flex-direction: row !important;
+    text-align: end;
 }
 
 nav{
@@ -59,7 +52,9 @@ nav{
     justify-content: flex-end;
     text-align: end;
 }
-
+.top-nav-right-pad{
+    padding-bottom: 8px;
+}
 
 .nav-top{
 background-color: #1a3b96;
@@ -89,6 +84,11 @@ justify-content: left;
 #main-logo{ 
     width:150px; 
     height:150px;
+}
+.nav-link-menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
 }
  
 
@@ -146,7 +146,7 @@ color:rgb(255, 255, 255) !important;
     
 }
 .footer-menu-row{
-    
+    columns: 12;
 }
 .footer-menu-social-logo{
     color:#fff !important;
@@ -180,24 +180,17 @@ height: 250px;
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    #main-bottom-logo{
-        width: 150px;
-        height: 150px;
-    }
-    .footer-menu-contact{
-        color:#fff !important;
-        font-size: 10px;
-        font-family: 'Zen Kaku Gothic New', sans-serif; 
-    }
 
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    #main-bottom-logo{
-        width: 150px;
-        height: 150px;
-        margin-top: 50px;
+    .dropdown-menu.show:{
+        max-width: 15px !important;
+        min-width: 15px !important;
+        width: 15px !important;
+    }
+    .nav-sub-text{
+        font-size: 15px;
+    }
+    .nav-main-text{
+        font-size: 15px;
     }
     .footer-menu-contact{
         color:#fff !important;
@@ -206,15 +199,123 @@ height: 250px;
     }
     .footer-menu-social-logo{
         color:#fff !important;
-        font-size: 35px;
+        font-size: 25px;
         font-family: 'Zen Kaku Gothic New', sans-serif; 
     }
+    .footer-menu-social{
+        padding: 0 !important;
+    }
+  
+    .footer-menu-main{
+        font-size: 10px;
+        padding: 0 !important;
+        margin: 0 !important;
+    
+        
 
+    }
+    .footer-menu-side{
+        font-size: 10px;
+    }
+    .bottom-site-logo{
+        display: none;
+        visibility:hidden;
+        transition;
+        columns: 1;
+        width: 0px;
+    }
+    .page-footer{
+        display:fluid !important;
+    }
+    .footer-logo-row{
+        display: none;
+        }
 
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 768px) {
+      
+    .dropdown-menu.show:{
+        max-width: 18px !important;
+        min-width: 18px !important;
+        width: 18px !important;
+    }
+    .nav-sub-text{
+        font-size: 15px;
+    }
+    .nav-main-text{
+        font-size: 18px;
+    }
+    #main-bottom-logo{
+        width: 200px;
+        height: 200px;
+    }
+    .nav-main-text{
+        font-size: 20px;
+        padding-left: 20px !important;
+    }
+    .nav-logo-text{
+        font-size: 35px;
+    }
+    .footer-menu-contact{
+        color:#fff !important;
+        font-size: 10px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social-logo{
+        color:#fff !important;
+        font-size: 25px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .footer-menu-social{
+        display:block
+    }
+  
+    .footer-menu-main{
+        font-size: 10px;
+        display:flex;
+        margin-top: 30px !important;
+    }
+    .footer-menu-side{
+        font-size: 10px;
+        display:flex;
+        margin-top: 30px !important;
+        flex-direction: row;
+    }
+    .footer-site-logo{
+        columns: 1;
+        width: 0px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        
+    }
+    .bi-pinterest{
+        width: 25px ;
+    }
+    .footer-contact-icon{
+        display: none;
+    }
 }
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
 
+    .dropdown-menu.show:{
+        max-width: 20px !important;
+        min-width: 20px !important;
+        width: 20px !important;
+    }
+    .nav-main-text{
+        font-size: 20px;
+        padding-left: 20px !important;
+    }
+    .nav-link-menu{
+        flex-direction: row;
+    }
+    .nav-logo-text{
+        font-size: 35px;
+    }
     #main-bottom-logo{
         width: 200px;
         height: 200px;
@@ -223,17 +324,29 @@ height: 250px;
         color:#fff !important;
         font-size: 15px;
         font-family: 'Zen Kaku Gothic New', sans-serif; 
+        
     }
     .footer-menu-social-logo{
         color:#fff !important;
         font-size: 40px;
         font-family: 'Zen Kaku Gothic New', sans-serif; 
+        
     }
-
-  
+    .footer-site-logo{
+        display: flex;
+     
+    }
+    
+} 
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 993px) {
 
+    .nav-main-text{
+        font-size: 25px;
+    }
+    .nav-logo-text{
+        font-size: 40px;
+    }
     #main-bottom-logo{
         width: 250px;
         height: 250px;
@@ -256,19 +369,25 @@ height: 250px;
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
 
+    .nav-logo-text{
+        font-size: 50px;
+    }
     #main-bottom-logo{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
     .footer-menu-contact{
-    color:#fff !important;
-    font-size: 18px;
-    font-family: 'Zen Kaku Gothic New', sans-serif; 
+        color:#fff !important;
+        font-size: 18px;
+        font-family: 'Zen Kaku Gothic New', sans-serif; 
     }
     .footer-menu-social-logo{
         color:#fff !important;
         font-size: 50px;
         font-family: 'Zen Kaku Gothic New', sans-serif; 
+    }
+    .nav-logo-text{
+        font-size: 50px;
     }
 
 } 

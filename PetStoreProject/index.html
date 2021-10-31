@@ -25,8 +25,8 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class=" container-fluid nav-top">
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <div class="col-10">
+            <div class="navbar-collapse" id="navbarNav">
+              <div class="col-9">
                 <a href="#" class="navbar-brand">
                   <i class="bi bi-envelope icon-md"></i>
                   <span
@@ -37,17 +37,16 @@
                   <span class="d-none d-md-inline-block navbar-text text-right text-white">1+ (555) 555 9101</span></a>
               </div>
 
-
-              <div class="col-1 justify-content-end">
-                <a href="#" class="navbar-brand">
-                  <i class="bi bi-box-arrow-in-right icon-md"></i>
-                  <span class="top-nav-left text-left text-white">Sign In</span></a>
-              </div>
-              <div class="col-1 container-fluid mx-auto mb-2">
-                <span class="top-nav-left"></span>
-                <a href="#" class="navbar-brand">
-                  <i class="bi bi-cart4 icon-lg"></i>
-                  <span class=" top-nav-left text-left"></span></a>
+              <div class="col-3 nav-top-right">
+                <div class="justify-content-end">
+                  <a href="#" class="navbar-brand">
+                    <i class="bi bi-box-arrow-in-right icon-md top-nav-right-pad"></i>
+                    <span class="top-nav-left text-left text-white top-nav-right-pad">Sign In</span></a>
+                  <span class="top-nav-left"></span>
+                  <a href="#" class="navbar-brand">
+                    <i class="bi bi-cart4 icon-lg top-nav-right-pad"></i>
+                    <span class=" top-nav-left text-left"></span></a>
+                </div>
               </div>
             </div>
           </div>
@@ -62,9 +61,10 @@
       <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
           <div class="container-fluid nav-main">
+
             <!-- logo -->
 
-            <div class="col-6">
+            <div class="col-6 col-md4 col-sm-4">
               <div class="site-logo">
                 <a href="index.html" class="text-black"><img src="./images/Logo/FPlogoWOtext.png" alt="Logo"
                     id="main-logo"></a>
@@ -75,38 +75,38 @@
 
             <!-- Menu Links -->
 
-            <div class="col-5">
-              <ul class="navbar-nav  justify-content-end">
-                <li class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            <div class="col-lg-6 col-md-8 col-sm-8">
+              <ul class="navbar-nav nav-link-menu">
+                <li class="navbar-nav mb-2 mb-lg-0">
+                  <a class="nav-link nav-main-text" aria-current="page" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
-                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                  <a class="nav-link dropdown-toggle nav-main-text" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="./ProductPage.html#food&teats">Food & Treats</a>
+                    <li><a class="dropdown-item nav-sub-text" href="./ProductPage.html#food&teats">Food & Treats</a>
                     </li>
-                    <li><a class="dropdown-item" href="./ProductPage.html">Toys</a></li>
-                    <li><a class="dropdown-item" href="./ProductPage.html">Training Toys</a>
+                    <li><a class="dropdown-item nav-sub-text" href="./ProductPage.html">Toys</a></li>
+                    <li><a class="dropdown-item nav-sub-text" href="./ProductPage.html">Training Toys</a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle color-black" href="./ServicesPage/ServicePage.html"
+                  <a class="dropdown-width nav-link dropdown-toggle nav-main-text color-black" href="#"
                     id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">Services</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="./ServicePage.html">Grooming</a></li>
-                    <li><a class="dropdown-item" href="./ServicePage.html">Nail Trimming</a>
+                  <ul class="dropdown-menu dropdown-width" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item nav-sub-text" href="./ServicePage.html">Grooming</a></li>
+                    <li><a class="dropdown-item nav-sub-text" href="./ServicePage.html">Nail Trimming</a>
                     </li>
-                    <li><a class="dropdown-item" href="./ServicesPage.html">Training</a></li>
+                    <li><a class="dropdown-item nav-sub-text" href="./ServicesPage.html">Training</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./ContactPage.html">Contact</a>
+                  <a class="nav-link nav-main-text" href="./ContactPage.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./AboutPage.html">About</a>
+                  <a class="nav-link nav-main-text" href="./AboutPage.html">About</a>
                 </li>
 
                 </li>
@@ -121,7 +121,7 @@
   <!-- /* Promotion Bar */ -->
 
   <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid nav-bottom text-center nav-bottom-contain">
+    <div class="container-fluid nav-bottom text-center">
       <span class="navbar-text w-100">
         <p class=" navbar-text promo-front-pg">Free Shipping and a bag of treats for new
           customers! Use promo code NEWCUST at checkout!</p>
@@ -162,7 +162,7 @@
 
         <!-- Social buttons -->
 
-        <div class="col-4 footer-menu-social pt-5 px-0">
+        <div class="col-lg-5 col col-md-4 col-sm-4 col-xs-3 footer-menu-social pt-5 px-0">
           <ul class="list-unstyled list-inline text-center">
             <div class="">
               <li class="list-inline-item">
@@ -184,7 +184,7 @@
             <div>
               </li>
               <li class="list-inline-item text-white">
-                <a href="#" class="btn-floating btn-tw mx-1 text-white">
+                <a href="#" class="btn-floating btn-tw mx-1 footer-menu-social-logo">
                   <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
                     class="bi bi-pinterest link-hover" viewBox="0 0 16 16">
                     <path
@@ -193,7 +193,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                 <a href="#" class="btn-floating btn-gplus mx-1 text-white">
+                <a href="#" class="btn-floating btn-gplus mx-1 text-white">
                   <i class="bi bi-youtube link-hover footer-menu-social-logo"></i>
                 </a>
               </li>
@@ -201,33 +201,31 @@
           </ul>
           <div class="container-fluid px-0 text-center">
             <a href="#" class="navbar-brand">
-              <i class="bi bi-envelope icon-md"></i>
+              <i class="bi bi-envelope icon-md footer-contact-icon"></i>
               <span
                 class="footer-menu-contact d-none d-md-inline-block navbar-text text-right footer-contact">info@FluffyPaws.net</span></a>
             <span class="mx-md-2 d-inline-block"></span>
             <a href="#" class="navbar-brand">
-              <i class="bi bi-phone icon-md"></i>
-              <span class="footer-menu-contact d-none d-md-inline-block navbar-text text-right footer-contact">1+ (555) 555
+              <i class="bi bi-phone icon-md footer-contact-icon"></i>
+              <span class="footer-menu-contact d-none d-md-inline-block navbar-text text-right footer-contact">1+ (555)
+                555
                 9101</span></a>
           </div>
         </div>
 
         <!-- Footer Logo -->
 
-        <div class="col-3 footer-logo-row">
-          <div class="bottom-site-logo">
-            <a href="index.html" class="p-5"><img src="./images/Logo/FPlogo.png" alt="Logo" id="main-bottom-logo"></a>
+        <div class="col-lg-3 col-md-4 col-sm-4 p-0 footer-logo-row">
+          <div class="footer-site-logo">
+            <a href="index.html" class="nav-link px-0 mt-5"><img src="./images/Logo/FPlogo.png" alt="Logo"
+                id="main-bottom-logo"></a>
           </div>
         </div>
-        <div class="col-2 footer-logo-row">
-          <div class="blank colum">
-            <a href="" class="text-black"><img src="#" alt="" id=""></a>
-          </div>
-        </div>
+
 
         <!-- Footer Menu -->
 
-        <div class="col-1 footer-menu-row pt-4">
+        <div class="col-lg-1 col-md-1 col-sm-1 footer-menu-main pt-4">
           <div class="bottom-menu">
             <ul class="navbar-nav  justify-content-end">
               <li class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -248,7 +246,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-2 pt-1">
+        <div class="col-lg-2 col-md-2 col-sm-2 pt-1 footer-menu-side">
           <div class="bottom-menu">
             <ul class="navbar-nav  justify-content-end">
               <li class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -269,8 +267,8 @@
                     class="link-hover bi bi-caret-right">Grooming</i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./ProductPage.html"><i
-                    class="link-hover bi bi-caret-right">Nail Trimming</i></a>
+                <a class="nav-link text-white" href="./ProductPage.html"><i class="link-hover bi bi-caret-right">Nail
+                    Trimming</i></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="./ProductPage.html"><i
